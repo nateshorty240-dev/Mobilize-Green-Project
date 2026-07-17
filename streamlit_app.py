@@ -5,7 +5,7 @@ import numpy as np
 
  #page set up
 
-st..set_page_config(
+st.set_page_config(
     page_title="Live PCCP AUDIT",
     page_icon="CD",
     layout="wide"
