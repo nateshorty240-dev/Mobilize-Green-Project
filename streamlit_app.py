@@ -61,10 +61,11 @@ with tab1:
     st.map(regions_df, latitude="lat", longitude="lon", size="patient_count")
 
 # Tab 2: Live Audit 
-status = "🟢 Compliant" if rounds_df["verification_loss"].iloc[-1] < 0.05 else "🟡 Under Review"
-st.markdown(f"**Compliance Status:** {status}")
+
 
 with tab2:
+    status = "🟢 Compliant" if rounds_df["verification_loss"].iloc[-1] < 0.05 else "🟡 Under Review"
+    st.markdown(f"**Compliance Status:** {status}")
     st.subheader("Model Metadata")
 
     col1, col2, col3 = st.columns(3)
