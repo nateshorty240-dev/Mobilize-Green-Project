@@ -49,7 +49,7 @@ with tab3:
 
     if st.button("Deploy Patch v2.1"):
         st.session_state.deployed = True
-        st.success("Patch v2.1 deployed to all 10,000 devices.")
+        st.success("Patch v2.1 deployed to all 5,000 devices.")
 
     st.subheader("Regulatory Activity Log")
     st.write("Live log placeholder — build with st.empty() next")
