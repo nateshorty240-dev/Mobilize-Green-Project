@@ -34,9 +34,9 @@ st.set_page_config(
 
 with st.sidebar:
     st.header("Project Team")
-    st.write("**Health Science Lead** — clinical context")
-    st.write("**CS Lead** — dashboard build")
-    st.write("**Policy/IID Lead** — PCCP compliance doc")
+    st.write("Latiful —  context")
+    st.write("Nathan — dashboard build")
+    st.write("Gigi — Business Pitch")
     st.divider()
     st.caption("This dashboard never transmits raw patient data. Only encrypted, anonymized model updates leave patient devices.")
 
